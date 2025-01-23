@@ -1,6 +1,6 @@
 MyOS is a simple operating system that demonstrates how a bootloader and kernel work together to boot into protected mode. Check out the MyOS_Blog pdf where I take you through my journey - from start to finish - as I built MyOS. 
 
-Also, here's how I built and ran MyOS if you want to test it out yourself:
+Also, here's how to run MyOS if you want to test it out yourself:
 
 Before getting started, make sure you have NASM, QEMU, and a cross-compiler and cross-linker configured for the x86 architecture (https://github.com/mell-o-tron/MellOs/blob/main/A_Setup/setup-gcc-debian.sh). Also, make sure the cross-compiler is accessible by exporting it path:
 
