@@ -33,3 +33,5 @@ Finally, I concatenated the bootloader, kernel binary, and padding into a single
 This command loads the OS binary as a raw floppy disk image and emulates the system with 128 MB of RAM:
 
 `qemu-system-x86_64 -drive format=raw,file="Binaries/OS.bin",index=0,if=floppy -m 128M`
+
+Ta-da!
