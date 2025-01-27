@@ -20,12 +20,12 @@ mov ch, 0x00
 mov dh, 0x00
 mov cl, 0x02
 mov dl, [BOOT_DISK]
-int 0x13                ; no error management, do your homework!
+int 0x13          
 
                                     
 mov ah, 0x0
 mov al, 0x3
-int 0x10                ; text mode
+int 0x10        
 
 
 CODE_SEG equ GDT_code - GDT_start
@@ -79,7 +79,7 @@ start_protected_mode:
 	mov fs, ax
 	mov gs, ax
 	
-	mov ebp, 0x90000		; 32 bit stack base pointer
+	mov ebp, 0x90000	
 	mov esp, ebp
 
     jmp KERNEL_LOCATION
